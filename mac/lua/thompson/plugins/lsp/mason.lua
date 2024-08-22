@@ -36,6 +36,11 @@ return {
 				"emmet_ls",
 				"prismals",
 				"pyright",
+				"ansiblels",
+				"terraformls",
+				"dockerls",
+				"yamlls",
+				"salt_ls",
 			},
 		})
 		mason_tool_installer.setup({
@@ -46,6 +51,8 @@ return {
 				"black", -- python formatter
 				"pylint", -- python linter
 				"eslint_d", -- js linter
+				"tflint", -- terraform linter
+				"ansible-lint", -- ansible linter
 			},
 		})
 	end,
